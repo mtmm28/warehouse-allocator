@@ -18,6 +18,6 @@ public class Warehouse {
     }
 
     public boolean canFit(Item item) {
-        return false; //first test
+        return item.volume() <= capacity; //first test
     }
 }
